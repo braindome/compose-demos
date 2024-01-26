@@ -8,8 +8,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.example.composedemos.sandbox.CardDemo
 import com.example.composedemos.sandbox.Greeting
 import com.example.composedemos.sandbox.Greetings
+import com.example.composedemos.sandbox.ScaffoldDemo
 import com.example.composedemos.ui.theme.ComposeDemosTheme
 
 
@@ -34,10 +36,21 @@ class MainActivity : ComponentActivity() {
                     // Sandbox
                     //Greetings(names = nameList )
                     // Greeting(name = "Mimmuz", modifier = Modifier)
+                    /*
                     Column {
+
                         Greeting(name = "Mimmuz", modifier = Modifier)
                         Greeting(name = "Mimmuz", modifier = Modifier)
                     }
+
+                    */
+
+                    // Card
+                    // CardDemo()
+
+                    // Layouts
+                    // 1. Scaffold
+                    ScaffoldDemo()
                 }
             }
         }
